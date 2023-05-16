@@ -1,0 +1,82 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Sending Http requests",
+        "description": "",
+        "id": "http-requests;sending-http-requests",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5560795700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "send Get request",
+            "match": {
+              "location": "Functional_Library.send_Get_request()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4933320500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "send Post request",
+            "match": {
+              "location": "Functional_Library.send_Post_request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2924098000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "send Put request",
+            "match": {
+              "location": "Functional_Library.send_Put_request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2141037900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "send Delete request",
+            "match": {
+              "location": "Functional_Library.send_Delete_request()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "HTTP Requests",
+    "description": "I want to use this template HTTP Requests",
+    "id": "http-requests",
+    "keyword": "Feature",
+    "uri": "FeatureFile/HttpReq.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]
